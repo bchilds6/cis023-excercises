@@ -1,0 +1,19 @@
+All classes must have their own .h and .cpp files
+Transportation base class
+	Number of passenger variable
+	String variable that holds destination
+	Integer that holds miles to destination
+engine class
+	integer that holds miles per hour
+	Function that takes two Integers, total miles and miles per hour, and returns how many hours it will take to travel the total distance.
+Derive a plane train and car from the base class transportation
+	Each transportation derived class must contain an engine
+	Function the prints out destination, and how many hours it will take to get to destination 
+Derive a type of plane, train, car (e.g. Camaro from a car, Turboprop for a plane, high-speed for train)
+	Set number of passengers, destination, miles to destination, and miles per hour in each constructor.
+	Create a function that prints out to the screen:
+		I have <number of passengers> passengers
+		I am going to <destination>
+		I go <miles per hour>
+		It will take me <how many hours> to arrive
+Create a test program that builds each type of plane train and car, calls the print to screen function for each one and pauses the program

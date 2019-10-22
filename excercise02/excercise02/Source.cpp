@@ -1,2 +1,5 @@
 #include "transportation.h"
-s
+int main() {
+	transportation t;
+	return 0;
+}
