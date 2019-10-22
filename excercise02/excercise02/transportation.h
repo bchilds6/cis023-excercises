@@ -3,17 +3,18 @@
 class transportation {
 public:
 	transportation();
+	transportation(int, string, double);
 	~transportation();
-protected:
 	int getNumberOfPassengers();
 	void setNumberOfPassengers(int);
-	string getDestinationName();
+	std::string getDestinationName();
 	void setDestinationName(string);
 	double getMilesToDestination();
-	void setMilesToDestination();
+	void setMilesToDestination(double);
+
 private:
 	int numberOfPassengers;
 	string destinationName;
-	double milesToDestination;
+	int milesToDestination;
 };
 

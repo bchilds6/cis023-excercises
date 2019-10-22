@@ -5,35 +5,39 @@
 transportation::transportation() {
 
 }
+transportation::transportation(int iNumberOfPassengers, string sDestinationName, double dDistance) :
+	numberOfPassengers(iNumberOfPassengers),
+	destinationName(sDestinationName),
+	milesToDestination(dDistance)
+{
+	
+}
 
 
 transportation::~transportation() {
 
 }
 
-int transportation::getNumberOfPassengers()
-{
+int transportation::getNumberOfPassengers() {
 	return numberOfPassengers;
 }
 
-void transportation::setNumberOfPassengers(int)
-{
+void transportation::setNumberOfPassengers(int iInput) {
+	numberOfPassengers = iInput;
 }
 
-string transportation::getDestinationName()
-{
+string transportation::getDestinationName() {
 	return destinationName;
 }
 
-void transportation::setDestinationName(string)
-{
+void transportation::setDestinationName(string sInput) {
+	destinationName = sInput;
 }
 
-double transportation::getMilesToDestination()
-{
+double transportation::getMilesToDestination() {
 	return milesToDestination;
 }
 
-void transportation::setMilesToDestination()
-{
+void transportation::setMilesToDestination(double dInput) {
+	milesToDestination = dInput;
 }

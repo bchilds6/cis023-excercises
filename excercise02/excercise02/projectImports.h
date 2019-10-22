@@ -1,9 +1,6 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include "car.h"
-#include "engine.h"
-#include "transportation.h"
 using std::string;
 using std::cout;
 using std::endl;

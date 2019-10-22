@@ -2,25 +2,25 @@
 
 
 
-engine::engine()
+engine::engine() {
+	milesPerHour = 1;
+}
+engine::engine(double dInput):
+milesPerHour(dInput)
 {
 }
 
-
-engine::~engine()
-{
+engine::~engine() {
 }
 
-double engine::getTimeToDestination()
-{
-	return 0.0;
+double engine::getTimeToDestination(int iTotalMiles, int iMilesPerHour) {
+	return iTotalMiles * 1.0 / iMilesPerHour;
 }
 
-double engine::getMilesPerHour()
-{
+double engine::getMilesPerHour() {
 	return milesPerHour;
 }
 
-void engine::setMilesPerHour(double)
-{
+void engine::setMilesPerHour(double dInput) {
+	milesPerHour = dInput;
 }

@@ -4,6 +4,7 @@ class engine
 {
 public:
 	engine();
+	engine(double);
 	~engine();
 	double getTimeToDestination(int, int);
 	double getMilesPerHour();
