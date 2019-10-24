@@ -1,15 +1,17 @@
 #pragma once
-//#include "projectImports.h"
 #include "transportation.h"
 #include "engine.h"
+
 class car: public transportation
 {
 public:
-	car();
-	~car();
-	void print();
+	car();	// default constructor
+	~car();	// destructor
+	void print();	// a print function that prints:
+	// the name of the destination
+	// the time to destination according to the function from the engine
 protected:
-	engine e;
+	engine e;	// protected engine object
 private:
 };
 

@@ -24,9 +24,6 @@
     <ClInclude Include="engine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="projectImports.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="mustang.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -36,12 +33,18 @@
     <ClInclude Include="plane.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="bulletTrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concorde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="projectWideImports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="transportation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="car.cpp">
@@ -57,6 +60,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bulletTrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concorde.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tester.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

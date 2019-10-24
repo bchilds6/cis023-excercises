@@ -110,20 +110,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="bulletTrain.h" />
     <ClInclude Include="car.h" />
+    <ClInclude Include="concorde.h" />
     <ClInclude Include="engine.h" />
     <ClInclude Include="mustang.h" />
     <ClInclude Include="plane.h" />
-    <ClInclude Include="projectImports.h" />
+    <ClInclude Include="projectWideImports.h" />
     <ClInclude Include="train.h" />
     <ClInclude Include="transportation.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="bulletTrain.cpp" />
     <ClCompile Include="car.cpp" />
+    <ClCompile Include="concorde.cpp" />
     <ClCompile Include="engine.cpp" />
     <ClCompile Include="mustang.cpp" />
     <ClCompile Include="plane.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Tester.cpp" />
     <ClCompile Include="train.cpp" />
     <ClCompile Include="transportation.cpp" />
   </ItemGroup>

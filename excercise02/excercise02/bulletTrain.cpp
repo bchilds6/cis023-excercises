@@ -1,17 +1,17 @@
-#include "mustang.h"
+#include "bulletTrain.h"
 
 
 // default constructor
-mustang::mustang() {
+bulletTrain::bulletTrain() {
+	// set each of the four variables to default values
 	setNumberOfPassengers(1);
 	setDestinationName("");
 	setMilesToDestination(0);
 	e.setMilesPerHour(1);
-	
 }
 
 // constructor with values
-mustang::mustang(int iNumOfPassengers, string sDestinationName, double dMilesToDestination, double dMilesPerHour) {
+bulletTrain::bulletTrain(int iNumOfPassengers, string sDestinationName, double dMilesToDestination, double dMilesPerHour) {
 	// set each of the four variables to the passed values
 	setNumberOfPassengers(iNumOfPassengers);
 	setDestinationName(sDestinationName);
@@ -20,17 +20,16 @@ mustang::mustang(int iNumOfPassengers, string sDestinationName, double dMilesToD
 }
 
 // destructor
-mustang::~mustang() {
+bulletTrain::~bulletTrain() {
 	
 }
-
 // print function
-void mustang::print() {
+void bulletTrain::print() {
 	// print out:
 	cout << "I have " << getNumberOfPassengers() << " passengers" << endl;		// number of passengers
 	cout << "I am going to " << getDestinationName() << endl;		// destination name
 	cout << "I go " << e.getMilesPerHour() << " MPH" << endl;		// speed in miles per hour
 	// 
-	// call the engine function to calculate time to destination using the speed and distance.
+	// call the engine function that calculates time to destination using the speed and distance.
 	cout << "It will take me " << e.getTimeToDestination(getMilesToDestination(), e.getMilesPerHour()) << " hours to arrive" << endl;
 }

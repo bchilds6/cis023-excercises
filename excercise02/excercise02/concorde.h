@@ -1,12 +1,12 @@
 #pragma once
-#include "projectWideImports.h"
-#include "car.h"
-class mustang : public car
+#include "plane.h"
+class concorde : public plane
 {
 public:
-	mustang();
-	mustang(int, string, double, double);
-	~mustang();
+	concorde();		// default constructor
+	concorde(int, string, double, double);		// constructor with values
+	~concorde();	// destructor
+	
 	void print();	// print function that prints:
 					// the number of passengers,
 					// the name of the destination,

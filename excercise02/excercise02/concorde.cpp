@@ -1,17 +1,17 @@
-#include "mustang.h"
+#include "concorde.h"
 
 
 // default constructor
-mustang::mustang() {
+concorde::concorde() {
+	// set each of the four variables to default values
 	setNumberOfPassengers(1);
 	setDestinationName("");
 	setMilesToDestination(0);
 	e.setMilesPerHour(1);
-	
 }
 
-// constructor with values
-mustang::mustang(int iNumOfPassengers, string sDestinationName, double dMilesToDestination, double dMilesPerHour) {
+// constructor with inputs
+concorde::concorde(int iNumOfPassengers, string sDestinationName, double dMilesToDestination, double dMilesPerHour) {
 	// set each of the four variables to the passed values
 	setNumberOfPassengers(iNumOfPassengers);
 	setDestinationName(sDestinationName);
@@ -20,12 +20,11 @@ mustang::mustang(int iNumOfPassengers, string sDestinationName, double dMilesToD
 }
 
 // destructor
-mustang::~mustang() {
-	
+concorde::~concorde() {
 }
 
 // print function
-void mustang::print() {
+void concorde::print() {
 	// print out:
 	cout << "I have " << getNumberOfPassengers() << " passengers" << endl;		// number of passengers
 	cout << "I am going to " << getDestinationName() << endl;		// destination name
