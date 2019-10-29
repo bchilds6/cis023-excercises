@@ -91,7 +91,7 @@ arrayListType::arrayListType(int size)
 
 arrayListType::~arrayListType()
 {
-    delete [] list;
+   // delete [] list;
 } //end destructor
 
 arrayListType::arrayListType(const arrayListType& otherList)

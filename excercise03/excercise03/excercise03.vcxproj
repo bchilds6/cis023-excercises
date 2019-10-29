@@ -20,10 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrayListType.h" />
+    <ClInclude Include="card.h" />
     <ClInclude Include="cardDeck.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="arrayListTypeImp.cpp" />
+    <ClCompile Include="card.cpp" />
     <ClCompile Include="cardDeck.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
