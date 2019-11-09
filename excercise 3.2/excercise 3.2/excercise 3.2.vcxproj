@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F15862C7-0FEA-4576-B4A7-CC819D659D1F}</ProjectGuid>
-    <RootNamespace>exercise31</RootNamespace>
+    <ProjectGuid>{D6E9E6D5-B586-4651-9003-3453E28E03A8}</ProjectGuid>
+    <RootNamespace>excercise32</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,16 +110,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="instructions.txt" />
+    <ClInclude Include="myString.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="myStringImp.cpp" />
-    <ClCompile Include="myStringImpFail.cpp" />
     <ClCompile Include="testMyString.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="myString.h" />
-    <ClInclude Include="myStringFail.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

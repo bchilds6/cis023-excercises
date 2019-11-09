@@ -15,27 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="instructions.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="testMyString.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="myStringImpFail.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="myStringImp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="myStringFail.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="myString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="myStringImp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testMyString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

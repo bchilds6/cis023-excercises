@@ -1,0 +1,5 @@
+Extend the definition of the class newString as follows:
+	Overload the operators + and += to perform the string concatenation operations.
+	Add	the function length to return the length of the string.
+Write the definition of the function to implement the operations defined in part a.
+Write a test program to test various operations on the newString objects.
