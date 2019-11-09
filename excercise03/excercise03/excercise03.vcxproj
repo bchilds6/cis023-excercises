@@ -18,8 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arrayListType.h" />
+    <ClInclude Include="card.h" />
+    <ClInclude Include="cardDeck.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arrayListTypeImp.cpp" />
+    <ClCompile Include="card.cpp" />
+    <ClCompile Include="cardDeck.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E90315D4-B33A-4ADD-93A2-FA36AC067E40}</ProjectGuid>
+    <ProjectGuid>{D25744D3-55AB-49E9-B266-5BAD49722199}</ProjectGuid>
     <RootNamespace>excercise03</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -109,9 +120,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="instructions.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
