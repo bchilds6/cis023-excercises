@@ -1,0 +1,6 @@
+first1 last1 house_address1 city1 state1 11111 phone_number1 relation1 1 1 2001
+first1 last2 house_address2 city2 state2 22222 phone_number2 relation2 2 2 2002
+first1 last3 house_address3 city3 state3 33333 phone_number3 relation3 3 3 2003
+first1 last4 house_address4 city4 state4 44444 phone_number4 relation4 4 4 2004
+first1 last5 house_address5 city5 state5 55555 phone_number5 relation5 5 5 2005
+first1 last6 house_address6 city6 state6 66666 phone_number6 relation6 6 6 2006

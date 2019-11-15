@@ -1,0 +1,12 @@
+#pragma once
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <sstream>
+#include <fstream>
+using std::ifstream;
+using std::ofstream;
+using std::string;
+using std::getline;
+using std::cout;
+using std::endl;
